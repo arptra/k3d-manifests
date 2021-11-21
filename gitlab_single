@@ -44,7 +44,6 @@ spec:
               name: web-claim1
             - mountPath: /var/opt/gitlab
               name: web-claim2
-      hostname: gitlab.example.com
       restartPolicy: Always
       volumes:
         - name: web-claim0
